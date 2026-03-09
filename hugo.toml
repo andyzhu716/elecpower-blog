@@ -1,0 +1,15 @@
+baseURL = 'https://elecpower.dpdns.org'
+languageCode = 'zh-CN'
+title = '电力设备选型指南'
+theme = 'hugo-geekdoc'
+
+[params]
+  geekdocLogo = ''
+  geekdocNav = true
+  geekdocSearch = true
+  geekdocRepo = ''
+  geekdocEditPath = ''
+
+[author]
+  name = '朱帅'
+  email = 'andyzhu716@gmail.com'
