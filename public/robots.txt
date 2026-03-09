@@ -1,0 +1,12 @@
+# robots.txt - 网站爬虫指引
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://elecpower.dpdns.org/sitemap.xml
+
+# 禁止爬取的目录
+Disallow: /admin/
+Disallow: /api/
+Disallow: /temp/

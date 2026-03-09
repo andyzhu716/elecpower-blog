@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术指南 on ElecPower - 电力母线专业博客</title>
+    <link>https://elecpower.dpdns.org/tags/%E6%8A%80%E6%9C%AF%E6%8C%87%E5%8D%97/</link>
+    <description>Recent content in 技术指南 on ElecPower - 电力母线专业博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://elecpower.dpdns.org/tags/%E6%8A%80%E6%9C%AF%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>母线选型指南：如何选择合适的封闭母线</title>
+      <link>https://elecpower.dpdns.org/posts/02-busbar-selection/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elecpower.dpdns.org/posts/02-busbar-selection/</guid>
+      <description>母线选型指南：如何选择合适的封闭母线 在电力系统设计中，母线的选型至关重要。正确的选型不仅能确保电力系统的安全稳定运行，还能有效控制成本。&#xA;选型关键参数 1. 额定电流 计算公式：I = P / (√3 × U)&#xA;I：额定电流（A） P：传输功率（kW） U：额定电压（kV） 选择建议：&#xA;预留20%余量 考虑峰值电流和短时过载 2. 电压等级 常见电压等级：&#xA;10kV（工业配电） 35kV（变电站） 66kV（大型变电站） 110kV以上（输电线路） 3. 短路电流 必须校验母线的：&#xA;动稳定（短路电动耐受） 热稳定（短路热耐受） 母线类型选择 封闭母线 vs 离相母线 特性 封闭母线 离相母线 绝缘方式 空气绝缘 相间隔离 防护性 全封闭 相间封闭 成本 较低 较高 适用场景 工业配电 发电机出口 共箱母线特点 适用于三相水平或垂直排列 结构紧凑，安装方便 成本经济 选型流程 确定负荷参数：电压、电流、功率因数 计算短路电流：系统短路容量 选择母线类型：根据安装环境和预算 校验技术参数：动稳定、热稳定 确定具体规格：截面、尺寸 专业咨询 如需母线选型技术支持，欢迎联系：&#xA;朱经理&#xA;电话：+86 138 0529 1038&#xA;微信：在线咨询&#xA;本文由 ElecPower 原创，专注电力设备销售与技术服务。</description>
+    </item>
+  </channel>
+</rss>

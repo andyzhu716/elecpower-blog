@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="keywords" content="{{ if .Params.keywords }}{{ .Params.keywords }}{{ else }}威腾电气,封闭母线,离相母线,共箱母线,电力母线,母线选型{{ end }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:title" content="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}">
+    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta property="og:image" content="{{ .Site.BaseURL }}og-image.png">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:locale" content="zh_CN">
+    {{ if .IsPage }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
+    <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">
+    <meta property="article:author" content="{{ .Site.Params.author }}">
+    {{ with .Params.categories }}
+    <meta property="article:section" content="{{ index . 0 }}">
+    {{ end }}
+    {{ end }}
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ .Permalink }}">
+    <meta name="twitter:title" content="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}">
+    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}og-image.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: #1a1a2e; color: white; padding: 1rem 0; }
+        header h1 { font-size: 1.5rem; }
+        header h1 a { color: white; text-decoration: none; }
+        nav { background: #16213e; padding: 0.5rem 0; }
+        nav a { color: #eaeaea; text-decoration: none; margin-right: 1.5rem; }
+        nav a:hover { color: #e94560; }
+        main { padding: 2rem 0; min-height: 60vh; }
+        .post { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #eee; }
+        .post h2 { margin-bottom: 0.5rem; }
+        .post h2 a { color: #1a1a2e; text-decoration: none; }
+        .post h2 a:hover { color: #e94560; }
+        .post-meta { color: #666; font-size: 0.9rem; margin-bottom: 1rem; }
+        .post-summary { color: #555; }
+        .post-content { line-height: 1.8; }
+        .post-content h1, .post-content h2, .post-content h3 { margin: 1.5rem 0 1rem; }
+        .post-content p { margin-bottom: 1rem; }
+        .post-content ul, .post-content ol { margin: 1rem 0 1rem 2rem; }
+        footer { background: #1a1a2e; color: white; padding: 2rem 0; text-align: center; }
+        footer p { margin-bottom: 0.5rem; }
+        .contact-info { margin-top: 1rem; }
+        .contact-info a { color: #e94560; text-decoration: none; }
+    </style>
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    {{ if .IsPage }}
+    "@type": "Article",
+    "headline": "{{ .Title }}",
+    "description": "{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}",
+    "url": "{{ .Permalink }}",
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05-07:00" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
+    "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author }}",
+    "telephone": "+86 138 0529 1038",
+    "email": "andyzhu716@gmail.com"
+    },
+    "publisher": {
+    "@type": "Organization",
+    "name": "ElecPower",
+    "url": "https://elecpower.dpdns.org",
+    "logo": {
+    "@type": "ImageObject",
+    "url": "https://elecpower.dpdns.org/logo.png"
+    }
+    },
+    "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+    }
+    {{ else }}
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.description }}",
+    "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}",
+    "logo": {
+    "@type": "ImageObject",
+    "url": "{{ .Site.BaseURL }}logo.png"
+    }
+    }
+    {{ end }}
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <a href="{{ .Site.BaseURL }}">首页</a>
+            <a href="{{ "/posts" | relURL }}">文章</a>
+            <a href="{{ "/about" | relURL }}">关于</a>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+            {{ block "main" . }}{{ end }}
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 {{ .Site.Title }}. All rights reserved.</p>
+            <div class="contact-info">
+                <p>联系人：朱经理</p>
+                <p>电话：<a href="tel:+8613805291038">+86 138 0529 1038</a></p>
+                <p>邮箱：<a href="mailto:andyzhu716@gmail.com">andyzhu716@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

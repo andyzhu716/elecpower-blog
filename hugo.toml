@@ -1,0 +1,7 @@
+baseURL = 'https://elecpower.dpdns.org/'
+languageCode = 'zh-cn'
+title = 'ElecPower - 电力母线专业博客'
+
+[params]
+  description = '电力母线产品专业知识分享 - 威腾电气封闭母线、离相母线、共箱母线'
+  author = '朱帅'

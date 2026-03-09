@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div style="text-align: center; padding: 2rem 0;">
+    <h1>欢迎访问 ElecPower</h1>
+    <p style="font-size: 1.2rem; color: #666; margin: 1rem 0;">
+        电力母线产品专业知识分享
+    </p>
+    <p style="margin: 1rem 0;">
+        威腾电气授权经销商 | 封闭母线 | 离相母线 | 共箱母线
+    </p>
+</div>
+
+<hr style="margin: 2rem 0;">
+
+<h2>最新文章</h2>
+
+{{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+<article class="post">
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <div class="post-meta">
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+    </div>
+    <p class="post-summary">{{ .Description }}</p>
+    <p><a href="{{ .Permalink }}">阅读全文 →</a></p>
+</article>
+{{ end }}
+
+<div style="margin-top: 2rem; padding: 1.5rem; background: #f0f7ff; border-radius: 8px; border-left: 4px solid #0066cc;">
+    <h3>📞 需要母线产品？</h3>
+    <p>我是朱经理，专注电力母线产品销售与技术咨询。</p>
+    <p style="margin-top: 0.5rem;">
+        <strong>电话</strong>：+86 138 0529 1038<br>
+        <strong>邮箱</strong>：andyzhu716@gmail.com
+    </p>
+</div>
+{{ end }}

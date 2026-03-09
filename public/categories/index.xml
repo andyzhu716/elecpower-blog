@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on ElecPower - 电力母线专业博客</title>
+    <link>https://elecpower.dpdns.org/categories/</link>
+    <description>Recent content in Categories on ElecPower - 电力母线专业博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://elecpower.dpdns.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术指南</title>
+      <link>https://elecpower.dpdns.org/categories/%E6%8A%80%E6%9C%AF%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elecpower.dpdns.org/categories/%E6%8A%80%E6%9C%AF%E6%8C%87%E5%8D%97/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>母线产品</title>
+      <link>https://elecpower.dpdns.org/categories/%E6%AF%8D%E7%BA%BF%E4%BA%A7%E5%93%81/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elecpower.dpdns.org/categories/%E6%AF%8D%E7%BA%BF%E4%BA%A7%E5%93%81/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>母线选型</title>
+      <link>https://elecpower.dpdns.org/categories/%E6%AF%8D%E7%BA%BF%E9%80%89%E5%9E%8B/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elecpower.dpdns.org/categories/%E6%AF%8D%E7%BA%BF%E9%80%89%E5%9E%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>电力设备</title>
+      <link>https://elecpower.dpdns.org/categories/%E7%94%B5%E5%8A%9B%E8%AE%BE%E5%A4%87/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://elecpower.dpdns.org/categories/%E7%94%B5%E5%8A%9B%E8%AE%BE%E5%A4%87/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
