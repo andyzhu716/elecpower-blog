@@ -1,4 +1,4 @@
-baseURL = 'https://elecpower.dpdns.org'
+baseURL = 'https://andyzhu716.github.io/elecpower-blog/'
 languageCode = 'zh-CN'
 title = '电力设备选型指南'
 theme = 'hugo-geekdoc'
