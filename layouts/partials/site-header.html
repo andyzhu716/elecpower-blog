@@ -35,15 +35,12 @@
         <!-- Language Switcher -->
         {{ if hugo.IsMultilingual }}
         <div class="language-switcher">
-          {{ range .Root.Site.Languages }}
-            {{ if eq .Lang $.Root.Site.Language.Lang }}
-              <span class="current-language">{{ .LanguageName }}</span>
+          {{ $currentLang := .Root.Site.Language.Lang }}
+          {{ range .Root.AllTranslations }}
+            {{ if eq .Language.Lang $currentLang }}
+              <span class="current-language">{{ .Language.LanguageName }}</span>
             {{ else }}
-              {{ range $.Root.Translations }}
-                {{ if eq .Lang $.Lang }}
-                  <a href="{{ .Permalink }}" class="language-link">{{ $.LanguageName }}</a>
-                {{ end }}
-              {{ end }}
+              <a href="{{ .Permalink }}" class="language-link">{{ .Language.LanguageName }}</a>
             {{ end }}
           {{ end }}
         </div>

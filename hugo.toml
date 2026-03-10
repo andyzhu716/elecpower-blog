@@ -1,7 +1,7 @@
 baseURL = 'https://www.elecpower.cn/'
 languageCode = 'en-US'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 title = 'ElecPower - Industrial Power Equipment Solutions'
 theme = 'hugo-geekdoc'
 
@@ -10,11 +10,13 @@ theme = 'hugo-geekdoc'
     languageName = 'English'
     weight = 1
     title = 'ElecPower - Industrial Power Equipment Solutions'
-    
+    languageDirection = 'ltr'
+
   [languages.zh-cn]
     languageName = '中文'
     weight = 2
     title = 'ElecPower - 工业电力设备解决方案'
+    languageDirection = 'ltr'
 
 [params]
   geekdocLogo = ''

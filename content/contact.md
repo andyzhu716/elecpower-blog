@@ -1,19 +1,52 @@
 ---
-title: "联系方式"
+title: "Contact Us"
+geekdocNav: true
 ---
 
-# 联系方式
+# Contact ElecPower
 
-如果你有电力设备、母线产品或火电项目相关需求，欢迎直接联系我。
+Get in touch for professional power equipment consultation and solutions.
 
-## 联系方式
+## Direct Contact
 
-- **手机 / 微信：13805291038**
-- **邮箱：andyzhu716@gmail.com**
+**Andy Zhu**  
+Power Equipment Specialist
 
-## 适合联系我的情况
+- **Phone/WeChat:** +86 138 0529 1038
+- **Email:** andyzhu716@gmail.com
+- **Company:** Wetown Electric Group Co., Ltd.
 
-- 想了解封闭母线 / 离相母线（IPB）/ 共箱母线
-- 有火电项目正在推进
-- 需要选型沟通、产品资料或前期支持
-- 需要进一步商务对接
+## Areas of Consultation
+
+We provide professional consultation for:
+
+1. **Busbar System Selection**
+   - Enclosed busbar applications
+   - Isolated Phase Bus (IPB) requirements
+   - Common enclosure bus solutions
+
+2. **Power Equipment Integration**
+   - Transformer specifications
+   - Energy storage system planning
+   - Complete power distribution solutions
+
+3. **Project Support**
+   - Technical specifications review
+   - Installation guidance
+   - Maintenance considerations
+
+## Response Time
+
+We typically respond to inquiries within 24 hours during business days (Monday-Friday, 9:00-18:00 China Standard Time).
+
+## Professional Background
+
+Andy Zhu has extensive experience in:
+- Industrial power equipment sales and consultation
+- International B2B client relationships
+- Technical specification development
+- Project implementation support
+
+---
+
+> For urgent inquiries, please use phone/WeChat contact. For detailed technical discussions, email is preferred with project specifications attached.

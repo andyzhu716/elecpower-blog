@@ -1,27 +1,41 @@
 ---
-title: "关于我"
+title: "About ElecPower"
+geekdocNav: true
 ---
 
-# 关于我
+# About ElecPower
 
-我是 **朱帅**，目前任 **威腾电气集团股份有限公司 客户经理**。
+ElecPower is a professional platform dedicated to providing industrial power equipment solutions for global B2B clients. We specialize in busbar systems and supporting power equipment for industrial applications.
 
-长期聚焦：
-- 封闭母线
-- 离相母线（IPB）
-- 共箱母线
-- 火电项目业务跟进
+## Our Mission
 
-我希望把这个站做成一个长期积累的专业入口：既能让客户快速了解我在做什么，也能持续沉淀行业内容，方便后续沟通。
+To deliver reliable, high-quality power distribution solutions that meet the specific needs of industrial facilities worldwide, with a focus on safety, efficiency, and long-term performance.
 
-## 我能提供的支持
+## Core Focus Areas
 
-- 产品方向沟通
-- 项目前期需求梳理
-- 技术交流与资料支持
-- 商务对接与持续跟进
+### **Busbar Systems**
+Our primary expertise lies in busbar technology, which forms the backbone of modern industrial power distribution:
 
-## 联系方式
+- **Enclosed Busbar Systems**: Designed for safe power distribution in industrial environments, offering protection against environmental factors and accidental contact
+- **Isolated Phase Bus (IPB)**: Specialized solutions for high-current applications in power generation facilities
+- **Common Enclosure Bus**: Space-efficient designs for installations where space optimization is critical
 
-- 手机 / 微信：**13805291038**
-- 邮箱：**andyzhu716@gmail.com**
+### **Supporting Equipment**
+- **Transformers**: Power conversion equipment for various industrial applications
+- **Energy Storage Systems**: Modern energy management solutions for industrial facilities
+
+## Professional Approach
+
+We take a consultative approach to power equipment selection, focusing on:
+- **Technical suitability** for specific applications
+- **Long-term reliability** and maintenance considerations
+- **International standards** compliance
+- **Total cost of ownership** optimization
+
+## International Experience
+
+With experience serving clients across different regions, we understand the unique requirements of various industrial markets and regulatory environments.
+
+---
+
+> For detailed technical specifications or project consultations, please contact us directly.

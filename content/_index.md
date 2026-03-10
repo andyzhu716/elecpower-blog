@@ -1,126 +1,38 @@
 ---
-title: "电力设备选型指南"
+title: "Industrial Power Equipment Solutions"
 geekdocNav: false
 ---
 
-# 电力设备选型与项目服务入口
+# Professional Power Equipment Solutions for Global Industries
 
-聚焦 **封闭母线、离相母线（IPB）、共箱母线**，服务 **火电厂新建、扩建、技改项目**，为客户提供产品沟通、技术交流、项目前期支持与商务协同。
+**ElecPower** provides high-quality busbar systems and power equipment solutions for industrial applications worldwide.
 
-> 如果你正在推进火电项目，或需要母线产品的前期沟通与选型支持，这个站可以作为你快速了解我和联系我的入口。
+## Our Core Expertise
 
-**快速联系：**
-- 手机 / 微信：**13805291038**
-- 邮箱：**andyzhu716@gmail.com**
+### **Busbar Systems**
+- **Enclosed Busbar** - Safe, reliable power distribution for industrial facilities
+- **Isolated Phase Bus (IPB)** - High-current applications for power generation
+- **Common Enclosure Bus** - Compact solutions for space-constrained installations
 
-[联系我](mailto:andyzhu716@gmail.com)
+### **Supporting Power Equipment**
+- **Transformers** - Power conversion and distribution
+- **Energy Storage Systems** - Modern energy management solutions
 
----
+## About Andy Zhu
 
-## 你可以在这里快速找到什么
+**Andy Zhu** is a power equipment specialist with extensive experience in industrial power distribution systems. With a focus on international B2B markets, Andy helps clients worldwide select and implement the right power equipment solutions for their specific needs.
 
-### 产品方向
-- 封闭母线
-- 离相母线（IPB）
-- 共箱母线
-- 高低压母线系统
+**Professional Background:**
+- Power Equipment Sales Specialist
+- Expertise in busbar systems for power plants and industrial facilities
+- International market experience with focus on overseas B2B clients
 
-### 服务内容
-- 产品选型沟通
-- 项目需求梳理
-- 技术问题交流
-- 报价前期支持
+## Contact Information
 
-### 适用客户
-- 火电厂业主
-- 电力设计院
-- EPC / 总包单位
-- 有母线产品咨询需求的客户
+- **Phone/WeChat:** +86 138 0529 1038
+- **Email:** andyzhu716@gmail.com
+- **Company:** Wetown Electric Group Co., Ltd.
 
 ---
 
-## 核心产品方向
-
-### 封闭母线
-适用于电厂及工业场景的电能传输系统，重点关注载流能力、绝缘结构、安装环境、运行可靠性与维护便利性。
-
-### 离相母线（IPB）
-常见于发电机出口及大电流应用场景，重点关注温升、动热稳定、绝缘设计与系统匹配。
-
-### 共箱母线
-适用于多回路集中布置场景，兼顾空间利用、施工效率、运行安全与维护需求。
-
----
-
-## 我能提供哪些支持
-
-### 1. 前期技术沟通
-- 帮你快速理解不同母线产品的适用场景
-- 协助梳理项目中的产品需求与技术关注点
-- 支持产品资料、样本与基础技术交流
-
-### 2. 项目推进支持
-- 火电项目线索与需求跟进
-- 项目阶段性沟通支持
-- 报价前的信息整理与对接
-- 针对具体场景做产品方向判断
-
-### 3. 长期内容沉淀
-- 持续更新母线相关知识
-- 整理常见问题与应用场景
-- 形成可搜索、可参考的行业内容库
-
----
-
-## 为什么找我
-
-很多客户真正需要的，不只是一个厂家名称，而是：
-
-- 有人能把产品和场景讲清楚
-- 有人能快速判断项目是否匹配
-- 有人愿意持续跟进，而不是只发一份样本就结束
-
-我希望把这个站做成一个 **长期可信的专业入口**：
-
-- 对客户来说，能快速判断我是不是对口的人
-- 对合作伙伴来说，能快速了解我在做什么
-- 对搜索用户来说，能直接找到电力设备与母线相关内容
-
----
-
-## 关于我
-
-我是 **朱帅**，现任 **威腾电气集团股份有限公司 客户经理**。
-
-目前长期聚焦：
-- 封闭母线
-- 离相母线（IPB）
-- 共箱母线
-- 火电项目业务推进
-
-这个站点既是我的个人专业名片，也是我持续沉淀行业内容的地方。
-
----
-
-## 下一步会持续补充的内容
-
-- 产品页：封闭母线 / IPB / 共箱母线
-- 场景页：火电厂新建、扩建、技改项目
-- 常见问题页：选型、应用、沟通要点
-- 关于我 / 联系方式独立页面
-
----
-
-## 联系我
-
-如果你有以下需求，可以直接联系我：
-
-- 想了解封闭母线 / IPB / 共箱母线
-- 正在推进火电项目
-- 需要产品选型或前期沟通支持
-- 需要进一步商务对接
-
-**手机 / 微信：13805291038**  
-**邮箱：andyzhu716@gmail.com**
-
-> 本站内容以电力设备、母线产品、项目场景交流为主，后续会继续完善产品内容、项目场景和常见问题模块。
+> This site provides technical information for industrial power equipment selection. For product inquiries and consultation, please contact me directly.
