@@ -1,41 +1,26 @@
 ---
-title: "About ElecPower"
+title: "About Wetown"
 geekdocNav: true
 ---
 
-# About ElecPower
+# About Wetown
 
-ElecPower is a professional platform dedicated to providing industrial power equipment solutions for global B2B clients. We specialize in busbar systems and supporting power equipment for industrial applications.
+**Wetown** supplies busbar systems and power equipment for industrial facilities worldwide. We serve engineering procurement companies, EPC contractors, and plant operators.
 
-## Our Mission
+## Business Scope
+- Enclosed Busbar Systems
+- Isolated Phase Bus (IPB)
+- Common Enclosure Bus
+- Transformers
+- Energy Storage Systems
 
-To deliver reliable, high-quality power distribution solutions that meet the specific needs of industrial facilities worldwide, with a focus on safety, efficiency, and long-term performance.
+## Quality Standards
+Products meet IEC and GB standards. Factory acceptance tests available upon request.
 
-## Core Focus Areas
+## Project Communication
+Direct contact for technical specifications, quotations, and project coordination.
 
-### **Busbar Systems**
-Our primary expertise lies in busbar technology, which forms the backbone of modern industrial power distribution:
-
-- **Enclosed Busbar Systems**: Designed for safe power distribution in industrial environments, offering protection against environmental factors and accidental contact
-- **Isolated Phase Bus (IPB)**: Specialized solutions for high-current applications in power generation facilities
-- **Common Enclosure Bus**: Space-efficient designs for installations where space optimization is critical
-
-### **Supporting Equipment**
-- **Transformers**: Power conversion equipment for various industrial applications
-- **Energy Storage Systems**: Modern energy management solutions for industrial facilities
-
-## Professional Approach
-
-We take a consultative approach to power equipment selection, focusing on:
-- **Technical suitability** for specific applications
-- **Long-term reliability** and maintenance considerations
-- **International standards** compliance
-- **Total cost of ownership** optimization
-
-## International Experience
-
-With experience serving clients across different regions, we understand the unique requirements of various industrial markets and regulatory environments.
-
----
-
-> For detailed technical specifications or project consultations, please contact us directly.
+## Contact
+- **Phone/WeChat:** +86 138 0529 1038
+- **Email:** andyzhu716@gmail.com
+- **Company:** Wetown Electric Group Co., Ltd.

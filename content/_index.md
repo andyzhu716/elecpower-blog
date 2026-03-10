@@ -3,36 +3,26 @@ title: "Industrial Power Equipment Solutions"
 geekdocNav: false
 ---
 
-# Professional Power Equipment Solutions for Global Industries
+# Industrial Power Equipment Solutions
 
-**ElecPower** provides high-quality busbar systems and power equipment solutions for industrial applications worldwide.
+**ElecPower** supplies busbar systems and power equipment for industrial facilities worldwide.
 
-## Our Core Expertise
+## Busbar Systems
+- Enclosed Busbar — Industrial power distribution solution
+- Isolated Phase Bus (IPB) — High-current applications for power generation
+- Common Enclosure Bus — Compact distribution design
 
-### **Busbar Systems**
-- **Enclosed Busbar** - Safe, reliable power distribution for industrial facilities
-- **Isolated Phase Bus (IPB)** - High-current applications for power generation
-- **Common Enclosure Bus** - Compact solutions for space-constrained installations
+## Supporting Equipment
+- Transformers — Medium-voltage distribution equipment
+- Energy Storage Systems — Commercial energy management solutions
 
-### **Supporting Power Equipment**
-- **Transformers** - Power conversion and distribution
-- **Energy Storage Systems** - Modern energy management solutions
-
-## About Andy Zhu
-
-**Andy Zhu** is a power equipment specialist with extensive experience in industrial power distribution systems. With a focus on international B2B markets, Andy helps clients worldwide select and implement the right power equipment solutions for their specific needs.
-
-**Professional Background:**
-- Power Equipment Sales Specialist
-- Expertise in busbar systems for power plants and industrial facilities
-- International market experience with focus on overseas B2B clients
-
-## Contact Information
+## Contact
 
 - **Phone/WeChat:** +86 138 0529 1038
 - **Email:** andyzhu716@gmail.com
+- **LinkedIn:** Available upon request
 - **Company:** Wetown Electric Group Co., Ltd.
 
 ---
 
-> This site provides technical information for industrial power equipment selection. For product inquiries and consultation, please contact me directly.
+> For technical specifications and quotations, contact us directly.
