@@ -1,7 +1,20 @@
-baseURL = 'https://andyzhu716.github.io/elecpower-blog/'
-languageCode = 'zh-CN'
-title = '电力设备选型指南'
+baseURL = 'https://www.elecpower.cn/'
+languageCode = 'en-US'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+title = 'ElecPower - Industrial Power Equipment Solutions'
 theme = 'hugo-geekdoc'
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+    title = 'ElecPower - Industrial Power Equipment Solutions'
+    
+  [languages.zh-cn]
+    languageName = '中文'
+    weight = 2
+    title = 'ElecPower - 工业电力设备解决方案'
 
 [params]
   geekdocLogo = ''
@@ -9,7 +22,8 @@ theme = 'hugo-geekdoc'
   geekdocSearch = true
   geekdocRepo = ''
   geekdocEditPath = ''
+  geekdocCustomCSS = 'css/custom.css'
 
 [author]
-  name = '朱帅'
+  name = 'Andy Zhu'
   email = 'andyzhu716@gmail.com'

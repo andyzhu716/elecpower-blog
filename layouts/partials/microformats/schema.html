@@ -1,1 +1,10 @@
-{{/* Temporary override: disable broken theme JSON-LD to unblock GitHub Pages build */}}
+{{/* Simple schema partial to fix build error */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "Professional power equipment solutions for industrial applications"
+}
+</script>

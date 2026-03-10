@@ -1,0 +1,127 @@
+/* Custom styles for ElecPower B2B industrial site */
+
+/* Professional color scheme */
+:root {
+  --industrial-blue: #0056b3;
+  --industrial-dark: #1a1a1a;
+  --industrial-light: #f8f9fa;
+  --industrial-gray: #6c757d;
+  --industrial-accent: #28a745;
+}
+
+/* Header improvements */
+.gdoc-header {
+  background: linear-gradient(135deg, var(--industrial-dark) 0%, #2c3e50 100%);
+  border-bottom: 3px solid var(--industrial-blue);
+}
+
+.gdoc-brand__title {
+  font-weight: 700;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.gdoc-brand__subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+}
+
+/* Content styling */
+.gdoc-markdown h1 {
+  color: var(--industrial-blue);
+  border-bottom: 2px solid var(--industrial-blue);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.gdoc-markdown h2 {
+  color: var(--industrial-dark);
+  margin-top: 2rem;
+}
+
+/* Professional card style for sections */
+.gdoc-markdown ul {
+  background: var(--industrial-light);
+  border-left: 4px solid var(--industrial-blue);
+  padding: 1.5rem;
+  border-radius: 0 4px 4px 0;
+  margin: 1.5rem 0;
+}
+
+.gdoc-markdown li {
+  margin-bottom: 0.5rem;
+}
+
+.gdoc-markdown li:last-child {
+  margin-bottom: 0;
+}
+
+/* Contact info styling */
+.gdoc-markdown strong {
+  color: var(--industrial-blue);
+}
+
+/* Blockquote for professional notes */
+.gdoc-markdown blockquote {
+  background: linear-gradient(135deg, var(--industrial-light) 0%, #e9ecef 100%);
+  border-left: 4px solid var(--industrial-accent);
+  color: var(--industrial-dark);
+  font-style: normal;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .gdoc-header {
+    padding: 1rem 0;
+  }
+  
+  .gdoc-brand__title {
+    font-size: 1.2rem;
+  }
+  
+  .gdoc-markdown {
+    padding: 1rem;
+  }
+}
+
+/* Button styling for calls to action */
+.gdoc-button {
+  background: var(--industrial-blue);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.gdoc-button:hover {
+  background: #004494;
+}
+
+/* Table styling for technical specifications */
+.gdoc-markdown table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.gdoc-markdown th {
+  background: var(--industrial-blue);
+  color: white;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.gdoc-markdown td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.gdoc-markdown tr:nth-child(even) {
+  background: var(--industrial-light);
+}

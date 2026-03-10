@@ -1,0 +1,122 @@
+<header class="gdoc-header">
+  <div class="container flex align-center justify-between">
+    {{ if .MenuEnabled }}
+      <label for="menu-control" class="gdoc-nav__control">
+        <div tabindex="0" role="button" aria-pressed="false">
+          <input type="checkbox" class="hidden" id="menu-control" />
+
+          <svg class="gdoc-icon gdoc_menu">
+            <title>{{ i18n "button_nav_open" }}</title>
+            <use xlink:href="#gdoc_menu"></use>
+          </svg>
+          <svg class="gdoc-icon gdoc_arrow_back">
+            <title>{{ i18n "button_nav_close" }}</title>
+            <use xlink:href="#gdoc_arrow_back"></use>
+          </svg>
+        </div>
+      </label>
+    {{ end }}
+    <div>
+      <a class="gdoc-brand gdoc-header__link flex gap-16 align-center" href="{{ .Root.Site.Home.Permalink }}">
+        <div>
+          <div class="gdoc-brand__title">{{ .Root.Site.Title }}</div>
+          {{ with .Root.Site.Params.geekdocSubtitle }}
+          <div class="gdoc-brand__subtitle">{{ . }}</div>
+          {{ end }}
+        </div>
+      </a>
+    </div>
+    <div class="gdoc-menu-header flex gap-16">
+      <span class="gdoc-menu-header__items">
+        {{ if .Root.Site.Data.menu.extra.header }}
+          {{ partial "menu-extra" (dict "current" .Root "source" .Root.Site.Data.menu.extra.header "target" "header") }}
+        {{ end }}
+
+        <!-- Language Switcher -->
+        {{ if hugo.IsMultilingual }}
+        <div class="language-switcher">
+          {{ range .Root.Site.Languages }}
+            {{ if eq .Lang $.Root.Site.Language.Lang }}
+              <span class="current-language">{{ .LanguageName }}</span>
+            {{ else }}
+              {{ range $.Root.Translations }}
+                {{ if eq .Lang $.Lang }}
+                  <a href="{{ .Permalink }}" class="language-link">{{ $.LanguageName }}</a>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+
+        <span id="gdoc-color-theme" tabindex="0" role="button" aria-pressed="false">
+          <svg class="gdoc-icon gdoc_brightness_dark">
+            <title>{{ i18n "button_toggle_dark" }}</title>
+            <use xlink:href="#gdoc_brightness_dark"></use>
+          </svg>
+          <svg class="gdoc-icon gdoc_brightness_light">
+            <title>{{ i18n "button_toggle_dark" }}</title>
+            <use xlink:href="#gdoc_brightness_light"></use>
+          </svg>
+          <svg class="gdoc-icon gdoc_brightness_auto">
+            <title>{{ i18n "button_toggle_auto" }}</title>
+            <use xlink:href="#gdoc_brightness_auto"></use>
+          </svg>
+        </span>
+        {{ if .Root.Site.Params.geekdocSearch }}
+          <span class="gdoc-search">
+            <svg class="gdoc-icon gdoc_search">
+              <title>{{ i18n "button_search" }}</title>
+              <use xlink:href="#gdoc_search"></use>
+            </svg>
+            <div class="gdoc-search__field-wrapper">
+              <input
+                class="gdoc-search__field"
+                id="gdoc-search-input"
+                type="search"
+                placeholder="{{ i18n "search_placeholder" }}"
+                maxlength="30"
+                aria-label="{{ i18n "search_placeholder" }}"
+              />
+              <div class="gdoc-search__results" id="gdoc-search-results"></div>
+            </div>
+          </span>
+        {{ end }}
+      </span>
+    </div>
+  </div>
+</header>
+
+<style>
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.current-language {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.language-link {
+  color: var(--body-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.language-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .language-switcher {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+</style>
