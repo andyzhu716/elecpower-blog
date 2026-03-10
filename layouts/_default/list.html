@@ -1,27 +1,14 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-
-{{ if .IsHome }}
-{{ range where .Site.RegularPages "Section" "posts" }}
-<article class="post">
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <div class="post-meta">
-        <time>{{ .Date.Format "2006-01-02" }}</time>
-        {{ with .Params.categories }} | 分类：{{ range . }}{{ . }}{{ end }}{{ end }}
-    </div>
-    <p class="post-summary">{{ .Description }}</p>
-    <p><a href="{{ .Permalink }}">阅读全文 →</a></p>
-</article>
-{{ end }}
-{{ else }}
-{{ range .Pages }}
-<article class="post">
-    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <div class="post-meta">
-        <time>{{ .Date.Format "2006-01-02" }}</time>
-    </div>
-    <p class="post-summary">{{ .Description }}</p>
-</article>
-{{ end }}
-{{ end }}
+<div class="page-content">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ if not .IsHome }}
+      {{ range .Pages }}
+      <article class="card" style="margin-top:16px;">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Description }}</p>
+      </article>
+      {{ end }}
+    {{ end }}
+</div>
 {{ end }}

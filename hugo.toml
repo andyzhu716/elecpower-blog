@@ -1,7 +1,69 @@
-baseURL = 'https://elecpower.dpdns.org/'
-languageCode = 'zh-cn'
-title = 'ElecPower - 电力母线专业博客'
+baseURL = 'https://www.elecpower.cn/'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+title = 'ElecPower'
 
-[params]
-  description = '电力母线产品专业知识分享 - 威腾电气封闭母线、离相母线、共箱母线'
-  author = '朱帅'
+[languages]
+  [languages.en]
+    languageName = 'English'
+    languageCode = 'en-US'
+    weight = 1
+    title = 'ElecPower'
+    [languages.en.params]
+      description = 'Busbar solutions for power plants and industrial power distribution, with transformers and energy storage systems as complementary offerings.'
+      author = 'Shuai Zhu'
+      locale = 'en_US'
+      contact_name = 'Shuai Zhu'
+      contact_title = 'Customer Manager'
+      phone = '+86 138 0529 1038'
+      email = 'andyzhu716@gmail.com'
+      linkedin = '#'
+      company_name = 'Wetown Electric'
+      company_url = 'https://www.wetown.com/'
+      primary_focus = 'Busbar solutions for power plants'
+      secondary_focus = 'Transformers and energy storage systems'
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = 'Home'
+        pageRef = '/'
+        weight = 10
+      [[languages.en.menu.main]]
+        name = 'About'
+        pageRef = '/about'
+        weight = 20
+      [[languages.en.menu.main]]
+        name = 'Contact'
+        pageRef = '/contact'
+        weight = 30
+
+  [languages.zh-cn]
+    languageName = '中文'
+    languageCode = 'zh-CN'
+    weight = 2
+    title = 'ElecPower'
+    [languages.zh-cn.params]
+      description = '聚焦电厂用封闭母线、离相母线（IPB）、共箱母线等母线产品，并配套变压器与储能设备能力。'
+      author = '朱帅'
+      locale = 'zh_CN'
+      contact_name = '朱帅'
+      contact_title = '客户经理'
+      phone = '+86 138 0529 1038'
+      email = 'andyzhu716@gmail.com'
+      linkedin = '#'
+      company_name = '威腾电气'
+      company_url = 'https://www.wetown.com/'
+      primary_focus = '电厂用封闭母线 / IPB 解决方案'
+      secondary_focus = '变压器与储能设备配套'
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
+        name = '首页'
+        pageRef = '/'
+        weight = 10
+      [[languages.zh-cn.menu.main]]
+        name = '关于'
+        pageRef = '/about'
+        weight = 20
+      [[languages.zh-cn.menu.main]]
+        name = '联系'
+        pageRef = '/contact'
+        weight = 30

@@ -1,22 +1,6 @@
 {{ define "main" }}
-<article class="post-content">
+<article class="page-content">
     <h1>{{ .Title }}</h1>
-    <div class="post-meta">
-        <time>{{ .Date.Format "2006-01-02" }}</time>
-        {{ with .Params.categories }} | 分类：{{ range . }}{{ . }}{{ end }}{{ end }}
-        {{ with .Params.tags }} | 标签：{{ range . }}{{ . }}{{ end }}{{ end }}
-    </div>
-    
     {{ .Content }}
 </article>
-
-<div style="margin-top: 2rem; padding: 1rem; background: #f5f5f5; border-radius: 8px;">
-    <h3>📞 联系我</h3>
-    <p>如需产品咨询或技术支持，请联系：</p>
-    <p><strong>朱经理</strong> | 电话：+86 138 0529 1038</p>
-    <p>邮箱：andyzhu716@gmail.com</p>
-    <p>微信：可直接添加好友咨询</p>
-</div>
-
-<p style="margin-top: 2rem;"><a href="{{ "/posts" | relURL }}">← 返回文章列表</a></p>
 {{ end }}
