@@ -1,0 +1,5 @@
+# Hugo build output
+public/
+
+# Verification script
+check_schema.py
