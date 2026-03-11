@@ -4,6 +4,22 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 title = 'ElecPower - Industrial Power Equipment Solutions'
 theme = 'hugo-geekdoc'
+enableRobotsTXT = true
+
+# Sitemap configuration
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+# Permalinks
+[permalinks]
+  blog = '/blog/:year/:month/:slug/'
+
+# Taxonomies
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
 
 [languages]
   [languages.en]
@@ -26,6 +42,10 @@ theme = 'hugo-geekdoc'
   geekdocEditPath = ''
   geekdocCustomCSS = 'css/custom.css'
 
+  # SEO params
+  description = 'Technical articles about busbar systems, IPB, transformers, and power distribution equipment for engineers and industry professionals.'
+  keywords = ['busbar', 'IPB', 'isolated phase bus', 'power transformer', 'electrical equipment', 'industrial power']
+
 [author]
-  name = 'Andy Zhu'
+  name = 'ElecPower Team'
   email = 'andyzhu716@gmail.com'

@@ -1,10 +1,41 @@
-{{/* Simple schema partial to fix build error */}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "{{ .Site.Title }}",
-  "url": "{{ .Site.BaseURL }}",
-  "description": "Professional power equipment solutions for industrial applications"
-}
-</script>
+{{/* Enhanced schema partial - overrides theme's schema.html */}}
+
+{{- /* 从 site params 读取作者信息 */ -}}
+{{- $authorName := .Site.Params.author.name | default .Site.Title | default "ElecPower" -}}
+{{- $authorEmail := .Site.Params.author.email | default "" -}}
+{{- $siteDescription := .Site.Params.description | default "Technical articles about power equipment" -}}
+
+{{- /* 首页: WebSite */ -}}
+{{- if .IsHome -}}
+{{- $schema := dict "@context" "https://schema.org" "@type" "WebSite" "name" .Site.Title "url" .Site.BaseURL "description" $siteDescription "inLanguage" .Lang "publisher" (dict "@type" "Organization" "name" $authorName) -}}
+<script type="application/ld+json">{{ $schema | jsonify }}</script>
+
+{{- /* 博客文章页: BlogPosting */ -}}
+{{- else if and .IsPage (eq .Section "blog") -}}
+{{- $authorDict := dict "@type" "Person" "name" $authorName -}}
+{{- if $authorEmail }}{{ $authorDict = merge $authorDict (dict "email" $authorEmail) }}{{ end -}}
+{{- $publisherDict := dict "@type" "Organization" "name" $authorName "logo" (dict "@type" "ImageObject" "url" (printf "%sfavicon/favicon.svg" .Site.BaseURL)) -}}
+{{- $mainEntity := dict "@type" "WebPage" "@id" .Permalink -}}
+{{- $schema := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" .Title "description" (or .Description (.Summary | plainify | htmlUnescape | chomp)) "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "author" $authorDict "publisher" $publisherDict "mainEntityOfPage" $mainEntity "wordCount" .WordCount "inLanguage" .Lang "isAccessibleForFree" true -}}
+<script type="application/ld+json">{{ $schema | jsonify }}</script>
+
+{{- /* 普通页面: WebPage */ -}}
+{{- else if .IsPage -}}
+{{- $mainEntity := dict "@type" "WebPage" "@id" .Permalink -}}
+{{- $schema := dict "@context" "https://schema.org" "@type" "WebPage" "name" .Title "url" .Permalink "description" (or .Description (.Summary | plainify | htmlUnescape | chomp)) "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "inLanguage" .Lang "mainEntityOfPage" $mainEntity -}}
+<script type="application/ld+json">{{ $schema | jsonify }}</script>
+
+{{- /* 列表页 (Section): CollectionPage */ -}}
+{{- else if .IsSection -}}
+{{- $mainEntity := dict "@type" "WebPage" "@id" .Permalink -}}
+{{- $schema := dict "@context" "https://schema.org" "@type" "CollectionPage" "name" .Title "url" .Permalink "description" (or .Description (printf "%s collection" .Title)) "inLanguage" .Lang "mainEntityOfPage" $mainEntity -}}
+<script type="application/ld+json">{{ $schema | jsonify }}</script>
+{{- end -}}
+
+{{/* BreadcrumbList - All pages except home */}}
+{{- if not .IsHome }}
+{{- /* 最小版本：只有 Home + 当前页，不包含 ancestors */ -}}
+{{- $items := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" .Site.BaseURL) (dict "@type" "ListItem" "position" 2 "name" .Title) -}}
+{{- $breadcrumbSchema := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items -}}
+<script type="application/ld+json">{{ $breadcrumbSchema | jsonify }}</script>
+{{- end -}}
