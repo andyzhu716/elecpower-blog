@@ -28,6 +28,12 @@ enableRobotsTXT = true
     title = 'ElecPower - Industrial Power Equipment Solutions'
     languageDirection = 'ltr'
 
+  [languages.zh-cn]
+    languageName = '中文'
+    weight = 2
+    title = 'ElecPower - 工业电力设备解决方案'
+    languageDirection = 'ltr'
+
 [params]
   geekdocLogo = ''
   geekdocNav = true

@@ -5,24 +5,52 @@ geekdocNav: false
 
 # Industrial Power Equipment Solutions
 
-**ElecPower** supplies busbar systems and power equipment for industrial facilities worldwide.
+Busbar systems and power distribution equipment for industrial applications.
 
-## Busbar Systems
-- Enclosed Busbar — Industrial power distribution solution
-- Isolated Phase Bus (IPB) — High-current applications for power generation
-- Common Enclosure Bus — Compact distribution design
+## Core Product Categories
 
-## Supporting Equipment
-- Transformers — Medium-voltage distribution equipment
-- Energy Storage Systems — Commercial energy management solutions
+### Isolated Phase Bus (IPB)
+
+Metal-enclosed busbar with isolated phase conductors for high-current applications.
+
+### Enclosed Busbar
+
+Industrial power distribution solution for facility-wide equipment.
+
+### Common Enclosure Bus
+
+Compact distribution design for space-constrained installations.
+
+{{< latest-articles >}}
+
+## Applications
+
+### Power Generation
+
+Busbar systems connect major electrical components in power generation facilities.
+
+### Industrial Facilities
+
+Power distribution within industrial facilities.
+
+### Commercial Buildings
+
+Power infrastructure for large commercial buildings.
+
+## Technical References
+
+System design references international electrical standards and technical requirements.
+
+## FAQ Preview
+
+**What is Isolated Phase Bus (IPB)?**
+
+IPB is a metal-enclosed busbar system where each phase conductor is housed in a separate electrically isolated enclosure.
+
+**What are the main applications for busbar systems?**
+
+Busbar systems are used in power generation facilities, industrial plants, and large commercial buildings.
 
 ## Contact
 
-- **Phone/WeChat:** +86 138 0529 1038
-- **Email:** andyzhu716@gmail.com
-- **LinkedIn:** Available upon request
-- **Company:** Wetown Electric Group Co., Ltd.
-
----
-
-> For technical specifications and quotations, contact us directly.
+For technical specifications or engineering questions, contact our team directly.

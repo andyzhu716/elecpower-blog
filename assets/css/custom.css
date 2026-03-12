@@ -125,3 +125,74 @@
 .gdoc-markdown tr:nth-child(even) {
   background: var(--industrial-light);
 }
+/* Latest Articles Section */
+.latest-articles-section {
+  margin: 3rem 0;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.article-card {
+  background: white;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  transition: box-shadow 0.2s;
+}
+
+.article-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.article-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article-link:hover {
+  text-decoration: none;
+}
+
+.article-title {
+  margin: 0 0 0.75rem 0;
+  color: var(--industrial-blue);
+}
+
+.article-meta {
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--industrial-gray);
+}
+
+.article-summary {
+  margin: 0;
+  line-height: 1.6;
+  color: var(--industrial-dark);
+}
+
+.view-all-link {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.view-all-link a {
+  color: var(--industrial-blue);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.view-all-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

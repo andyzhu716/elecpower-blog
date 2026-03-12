@@ -32,6 +32,20 @@
           {{ partial "menu-extra" (dict "current" .Root "source" .Root.Site.Data.menu.extra.header "target" "header") }}
         {{ end }}
 
+        <!-- Language Switcher -->
+        {{ if hugo.IsMultilingual }}
+        <div class="language-switcher">
+          {{ $currentLang := .Root.Site.Language.Lang }}
+          {{ range .Root.AllTranslations }}
+            {{ if eq .Language.Lang $currentLang }}
+              <span class="current-language">{{ .Language.LanguageName }}</span>
+            {{ else }}
+              <a href="{{ .Permalink }}" class="language-link">{{ .Language.LanguageName }}</a>
+            {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+
         <span id="gdoc-color-theme" tabindex="0" role="button" aria-pressed="false">
           <svg class="gdoc-icon gdoc_brightness_dark">
             <title>{{ i18n "button_toggle_dark" }}</title>
@@ -70,3 +84,36 @@
   </div>
 </header>
 
+<style>
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.current-language {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.language-link {
+  color: var(--body-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.language-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .language-switcher {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+</style>
